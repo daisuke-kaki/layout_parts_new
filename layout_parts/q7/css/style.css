@@ -9,75 +9,70 @@
 .font__box{
   width: 225px;
 }
-.font--float .font__box{
+.float--float .font__box{
   float: left;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
 }
-.font--float .font__box:first-child {
+.float--float .font__box:first-child {
   margin-left: 0;
 }
 
-.font--table .font__inner{
+.table--table .table__inner{
   display: table;
 }
-.font--table .font__box{
+.table--table .font__box{
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.font--table .font__box:first-child{
+.table--table .font__box:first-child{
   padding-left: 0;
 }
 
-.font--inlineblock .font__inner{
+.inlineblock--inlineblock .inlineblock__inner{
   font-size: 0;
 }
-.font--inlineblock .font__box{
+.inlineblock--inlineblock .font__box{
   display: inline-block;
   margin-left: 50px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
-.font--inlineblock .font__box:first-child{
+.inlineblock--inlineblock .font__box:first-child{
   margin-left: 0;
 }
-.font--flex .font__inner{
+.flex--flex .flex__inner{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.font--flex .font__box{
+.flex--flex .font__box{
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.font--margin .font__inner{
+.margin--margin .margin__inner{
   font-size: 0;
 }
-.font--margin .font__box{
+.margin--margin .font__box{
   vertical-align: top;
 }
-.font--margin .font__box.is-stable{
+.margin--margin .font__box.is-stable{
   display:inline-block;
   width: 300px;
 }
-.font--margin .font__box.is-flexible{
+.margin--margin .font__box.is-flexible{
   display: inline-block;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }
-.font--margin .font__box__text{
+.margin--margin .font__box__text{
   font-size:16px;
 }
-
-
-
-
-
 /* 回答はここに書いてね */
