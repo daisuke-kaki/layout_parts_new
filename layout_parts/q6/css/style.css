@@ -1,53 +1,51 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__box__text{
+.box__box__text{
   background-color: #e6f2ff;
-  padding: 10px 0;
+  padding: 10px;
   width: 90px;
 }
-.q6__box.is-textalign .q6__box__inner{
+.box__box.is-textalign .box__box__inner{
   text-align: center;
 }
-.q6__box.is-textalign .q6__box__text{
+.box__box.is-textalign .box__box__text{
 display: inline-block;
 }
 
-.q6__box.is-margin .q6__box__text{
+.box__box.is-margin .box__box__text{
   margin: 0 auto ;
   text-align: center;
 }
 /*問2*/
-.q6--around.is-table{
+.box--around.is-table{
   display: table;
 }
-.q6--around.is-table .q6__box{
+.box--around.is-table .box__box{
   background-color: #ecf1f2;
   text-align: center;
   vertical-align: middle;
   display: table-cell;
 }
-.q6--around.is-table .q6__box__text{
+.box--around.is-table .box__box__text{
   background-color: #fff;
-  padding: 10px;
   display: inline-block;
 }
 
-.q6--around.is-flex{
+.box--around.is-flex{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.q6--around.is-flex .q6__box__text{
+.box--around.is-flex .box__box__text{
   background-color: #fff;
-  padding: 10px;
   text-align: center;
 }
 
-.q6--position .q6__box{
+.box--position .box__box{
   position: relative;
 }
-.q6__box.is-stable .q6__box__inner{
+.box__box.is-stable .box__box__inner{
   position: absolute;
   top: 0;
   right: 0;
@@ -55,7 +53,7 @@ display: inline-block;
   bottom:0;
   margin: auto;
 }
-.q6__box.is-flexible .q6__box__inner{
+.box__box.is-flexible .box__box__inner{
   position: absolute;
   top:50%;
   left: 50%;

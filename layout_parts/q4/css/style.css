@@ -1,55 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4{
+.graph{
   padding: 20px;
   box-sizing: border-box;
 }
-.q4-contents{
+.graph__contents{
   display: table;
   margin-top: 20px;
   width: 100%;
   background-color: #ECF1F2;
 }
-.q4-contents:first-child{
+.graph__contents:first-child{
   margin-top: 0;
 }
-.q4-contents-box-pink{
-  background-color: #fdc8b8;
-  width: 100px; display: table-cell;
-  padding: 20px;
-  text-align: center;
-}
-.q4-contents-box-purple{
-  background-color: #e0abd9;
+.graph__contents__box{
   display: table-cell;
   padding: 20px;
   text-align: center;
 }
-.q4-contents-box-blue{
+.graph__contents__box.is-pink{
+  background-color: #fdc8b8;
+  width: 100px;
+}
+.graph__contents__box.is-purple{
+  background-color: #e0abd9;
+}
+.graph__contents__box.is-blue{
   background-color: #b6d8ed;
   width: 100px; 
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
 }
-.q4-contents-box-yellow{
+.graph__contents__box.is-yellow{
   background-color: #e5d32e;
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
 }
-.q4-contents-box-red{
+.graph__contents__box.is-red{
   background-color: #ec8f9a;
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
 }
-.q4-contents-box-green{
+.graph__contents__box.is-green{
   background-color: #8fdcad;
   width: 500px; 
-  display: table-cell;
-  padding: 20px;
-  text-align: center;
 }
 /* 回答はここに書いてね */

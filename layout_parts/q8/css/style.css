@@ -42,7 +42,9 @@
 .q8__btn--common{
   background-color: #00BCD4;
   color: #FFF;
-
+}
+.q8__btn--common:first-child{
+  margin-left: 0;
 }
 .q8__btn--error{
   background-color: #FF4081;

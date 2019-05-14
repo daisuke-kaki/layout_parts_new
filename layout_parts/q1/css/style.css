@@ -6,26 +6,24 @@
   content: "";
   clear: both;
 }
-.q1{
+.sentence{
   width: 900px;
   background-color: #eff3f4;
   padding: 20px;
   margin: 0 auto;
-
 }
-.q1__content{
+.sentence__content{
   float: left;
   width: 230px;
   padding: 20px;
   margin-left:20px;
   background-color: #3274ae;
 }
-.q1__content:first-child{
+.sentence__content:first-child{
   margin-left: 0;
 }  
-.q1__content__box{
+.sentence__content__box{
   background-color: #eaf4ff;
   padding:20px;
   border: solid 10px #022336;
-
 }

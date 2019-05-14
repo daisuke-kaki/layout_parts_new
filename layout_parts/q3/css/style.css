@@ -1,26 +1,59 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-th,td{
+.font__box__contents {
+  width: 100%;
+  border: 1px solid #dedede;
+  table-layout: fixed;
+}
+.font__box__contents th,
+.font__box__contents td {
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+.font__box__contents th {
+  background-color: #24a;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+.font__box__contents td {
+  line-height: 22px;
+  text-align: center;
+}
+
+.font__box__contents > tbody > tr:nth-child(even) {
+  background-color: #ECF1F2;
+}
+.font__box__contents > tbody > tr:last-child {
+  border-top: 2px dashed #000;
+}
+
+
+
+/* 
+.box__th .box__td{
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
   line-height: 22px;
   font-size: 18px;
 }
-table{
+.table{
   border-collapse: collapse;
   width: 100%;
   table-layout: fixed;
 }
-th{
+.table .box__th{
   background-color: #2244aa;
   color: white;
 }
-tr:nth-child(odd){
+.table .box__tr:nth-child(odd){
   background-color: #ecf1f2;
 }
-tr:last-child {
+.table .box__tr:last-child {
   border-top: 2px dashed #000;
 }
 /* 回答はここに書いてね */
